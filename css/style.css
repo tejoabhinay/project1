@@ -1,0 +1,57 @@
+.top{
+    background-image: linear-gradient(to right,aqua,seagreen);
+}
+.top ul li a{
+    font-size: large;
+    font-weight: 600;
+}
+#section2 h1{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+#section2 div {
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    border: 5px solid rgb(216, 47, 25);
+    padding: 90px;
+    margin: 10%;
+    
+  }
+#section2{
+    background-image: url(./images/bike\ and\ car.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    opacity: 0.8;
+    width: 100%;    
+}
+#home{
+    background-image: url("./images/login.jpg");
+    padding: 4%;
+}
+#home label{
+    font-weight: 600;
+    font-size: larger;
+}
+#home .section{
+    width: 600px;
+    margin-left: 10%;
+}
+@media only screen and (max-width:767px){
+    #section2 div {
+        background-color: rgb(255, 255, 255);
+        width: 400px;
+        border: 3px solid rgb(216, 47, 25);
+        padding: 40px;
+        margin: 10%;
+        
+      }
+      #section2 h1{
+        text-align: center;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        font-size:1em;
+    }    
+}
